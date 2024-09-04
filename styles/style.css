@@ -1,0 +1,26 @@
+@import url('/styles/reset.css');
+@import url('/styles/header.css');
+@import url('/styles/menu-lateral.css');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fonte-Montagu: "Montagu Slab", serif;
+    --fonte-Montserrat: "Montserrat", sans-serif;
+
+    --cor-tema: rgb(37, 37, 37);
+    --cor-destaque: #8D4AFF;
+    --cinza-claro: #F2F2F2;
+    --cinza-escuro: #707070;
+}
+
+body {
+    font-family: var(--fonte-Montserrat);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    color: var(--cinza-escuro);                                                            
+    box-sizing: border-box;
+    text-align: center;
+}

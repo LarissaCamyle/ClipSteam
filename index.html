@@ -3,18 +3,132 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/estilos.css">
-        <link rel="stylesheet" href="./css/flexbox.css">
-        <title>VidFlow</title>
-        <link rel="shortcut icon" href="./img/Favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./styles/style.css">
+        <title>ClipSteam</title>
+        <link rel="shortcut icon" href="./img/iconClipSteamHeader.png" type="image/x-icon">
     </head>
 <body>
 
+    <header>
+        <nav class="cabecalho">
+            <div class="cabecalho-logo">
+                <img src="/img/logoClipSteam-escrito.png" alt="Logo do ClipSteam" >
+            </div>
+            <div class="cabecalho-pesquisa">
+                <form class="form-pesquisa">
+                    <input type="search" class="form-pesquisa-input" placeholder="Pesquisar">
+                    <img src="/img/topbar/keyboard.png" alt="Ícone de teclado" class="form-pesquisa-img">
+                    <button class="form-btn-pesquisar">
+                        <img src="/img/topbar/search.png" alt="Ícone de lupa">
+                    </button>
+                </form>
+                <button class="cabecalho-audio">
+                    <img src="/img/topbar/Mic.png" alt="Ícone de microfone">
+                </button>
+            </div>
+            <div class="cabecalho-icones">
+                <a href="#" class="cabecalho-videos"></a>
+                <a href="#" class="cabecalho-apps"></a>
+                <a href="#" class="cabecalho-notificacoes"></a>
+                <a href="#" class="cabecalho-avatar"></a>
+                <label class="cabecalho-switch">
+                    <input type="checkbox" class="cabecalho-switch-btn">
+                    <span class="cabecalho-switch-slider"></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <aside class="menu-lateral">
+        <ul class="menu-lista">
+            <a class="menu-itens" href="#">
+                <i class="icone-inicio icone-item"></i>
+                <span>Início</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-explorar icone-item"></i>
+                <span>Explorar</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-shorts icone-item"></i>
+                <span>Shorts</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-inscricoes icone-item"></i>
+                <span>Inscrições</span>
+            </a>
+        </ul>
+        <ul class="menu-lista">
+            <a class="menu-itens" href="#">
+                <i class="icone-biblioteca icone-item"></i>
+                <span>Biblioteca</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-historico icone-item"></i>
+                <span>Histórico</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-assistir-mais-tarde icone-item"></i>
+                <span>Assistir mais tarde</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-marcados-com-like icone-item"></i>
+                <span>Marcados com like</span>
+            </a>
+        </ul>
+        <ul class="menu-lista">
+            <h1 class="menu-lista-titulo">INSCRIÇÕES</h1>
+
+            <a class="menu-itens" href="#">
+                <i class="icone-alura icone-item"></i>
+                <span>Alura</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-Caio icone-item"></i>
+                <span>Caio</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-rafaella icone-item"></i>
+                <span>Rafaella Ballerini</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-atila icone-item"></i>
+                <span>Atila</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-mario icone-item"></i>
+                <span>Mario</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-jovem icone-item"></i>
+                <span>Jovem</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-Felipe icone-item"></i>
+                <span>Felipe</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-mostrar-mais icone-item"></i>
+                <span>Mostrar mais 2</span>
+            </a>
+        </ul>
+        <ul class="menu-lista sem-borda">
+            <h1 class="menu-lista-titulo">MAIS DA PÁGINA</h1>
+
+            <a class="menu-itens" href="#">
+                <i class="icone-videos-premium icone-item"></i>
+                <span>Vídeos Premium</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-filmes icone-item"></i>
+                <span>Filmes</span>
+            </a>
+            <a class="menu-itens" href="#">
+                <i class="icone-jogos icone-item"></i>
+                <span>Jogos</span>
+            </a>
+        </ul>
+    </aside>
 
 </body>
 </html>

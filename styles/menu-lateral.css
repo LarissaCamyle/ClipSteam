@@ -1,0 +1,23 @@
+.menu-lateral{
+    height: 90%;
+    width: 13rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    margin-top: 5rem;
+}
+
+.menu-lista{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem 2rem 2rem 1rem;
+    margin: 1rem 0rem 0rem 0.5rem;
+    border-bottom: 1px solid var(--cor-destaque);
+}
+
+.sem-borda{
+    border: none;
+}
