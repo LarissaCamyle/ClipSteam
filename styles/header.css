@@ -1,10 +1,12 @@
 .cabecalho{
-    height: 4rem;
+    height: 3.5rem;
     display: flex;
     box-sizing: border-box;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
 }
 
 .cabecalho-logo{
@@ -15,7 +17,7 @@
 }
 
 .cabecalho-logo img{
-    height: 2.7rem;
+    height: 2.1rem;
 }
 
 .cabecalho-pesquisa{
