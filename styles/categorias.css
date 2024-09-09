@@ -19,6 +19,9 @@
     border-bottom: 1px solid var(--cor-destaque);
     padding: 1rem 0rem;
     font-weight: 500;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
 
 }
 

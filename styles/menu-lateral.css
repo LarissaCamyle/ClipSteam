@@ -122,3 +122,19 @@
 .icone-jogos::before {
     content: url(../img/sidebar/sports_esports.png);
 }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .menu-lateral{
+        height: 100%;
+        width: 10rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-lateral{
+        height: 100%;
+        width: 2.2rem;
+        font-size: 0rem;
+    }
+}

@@ -101,3 +101,17 @@ function filtrarPorCategoria (filtro){
 
     }
 }
+
+//CARROSSEL 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.querySelector('.categorias-container'); // Mudar para '.categorias-container'
+    const slider = document.querySelector('.categorias-slider');
+
+    slider.addEventListener('click', function() {
+        container.scrollBy({
+            left: container.offsetWidth,
+            behavior: 'smooth'
+        });
+    });
+});

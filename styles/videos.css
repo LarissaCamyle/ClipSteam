@@ -52,3 +52,36 @@ iframe{
     width: 0px;
     height: 0px;
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+    .container-videos{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .container-videos{
+        width: 75%;
+    }
+    .videos{
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .container-videos{
+        width: 70%;
+    }
+    .videos{
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-videos{
+        width: 85%;
+    }
+    .videos{
+        padding-right: 1rem;
+    }
+}
