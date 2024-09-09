@@ -1,15 +1,15 @@
 .menu-lateral{
-    height: 50rem;
-    width: 12rem;
-    position: absolute;
+    height: 100%;
+    width: 11rem;
+    position: fixed;
     top: 0;
     left: 0;
-    overflow-x: hidden;
-    z-index: 2;
-    overflow: scroll; 
+    overflow: scroll;
     scrollbar-width: none;
-    margin-top: 3.2rem;
+    padding-top: 3.2rem;
     font-weight: 500;
+    background-color: white;
+    z-index: 1;
 }
 
 .menu-lista{

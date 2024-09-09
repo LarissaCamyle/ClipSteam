@@ -1,5 +1,6 @@
 .cabecalho{
     height: 3.5rem;
+    width: 100%;
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
@@ -7,6 +8,8 @@
     flex-direction: row;
     padding-left: 1.5rem;
     padding-right: 2rem;
+    z-index: 2;
+    position: absolute;
 }
 
 .cabecalho-logo{
