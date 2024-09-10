@@ -26,7 +26,7 @@
 }
 
 .categorias-item{
-    background: var(--cinza-claro);
+    background: var(--cor-categorias);
     padding: 0.5rem;
     border-radius: 50px;
 }

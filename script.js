@@ -115,3 +115,24 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+//BTN TROCA TEMA
+
+const btnTrocaTema = document.querySelector(".cabecalho-switch-btn");
+const root = document.documentElement;
+let temaEscuroAtivo = false; // Começa com o tema claro por padrão
+
+btnTrocaTema.addEventListener("click", () => {
+    if (!temaEscuroAtivo) {
+        // Aplicar tema escuro
+        root.style.setProperty('--cor-categorias', 'rgb(61, 61, 61)');
+        root.style.setProperty('--cor-fundo', 'black');
+        root.style.setProperty('--cor-tema', 'white');
+    } else {
+        // Aplicar tema claro
+        root.style.setProperty('--cor-categorias', 'rgb(231, 231, 231)');
+        root.style.setProperty('--cor-fundo', 'white');
+        root.style.setProperty('--cor-tema', 'rgb(22, 22, 22)');
+    }
+    temaEscuroAtivo = !temaEscuroAtivo; // Alterna o estado do tema
+});

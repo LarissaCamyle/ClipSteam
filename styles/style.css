@@ -9,10 +9,12 @@
     --fonte-Montagu: "Montagu Slab", serif;
     --fonte-Montserrat: "Montserrat", sans-serif;
 
-    --cor-tema: rgb(22, 22, 22);
     --cor-destaque: #8D4AFF;
-    --cinza-claro: #F2F2F2;
+    --cinza-claro: #ffffff;
     --cinza-escuro: #707070;
+    --cor-fundo: white;
+    --cor-tema: rgb(22, 22, 22);
+    --cor-categorias: rgb(231, 231, 231);
 }
 
 body {
@@ -26,4 +28,5 @@ body {
     font-weight: 400;                                                         
     box-sizing: border-box;
     text-align: center;
+    background: var(--cor-fundo);
 }
